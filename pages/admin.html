@@ -38,25 +38,26 @@
          <br /><br />
          <h1>Admin Page</h1>
          <br />
-         <form id="product-form">
+         <form id="product-form" class="flex-row justify-between items-center">
             <div>
-               <label for="name">Product name</label>
+               <label for="name">Product name: </label>
                <input type="text" id="name" />
             </div>
             <div>
-               <label for="price">Price</label>
+               <label for="price">Price: </label>
                <input type="text" id="price" />
             </div>
             <div>
-               <label for="image-url">Image URL</label>
+               <label for="image-url">Image URL: </label>
                <input type="text" id="image-url" />
             </div>
             <div>
-               <label for="details">Details</label>
+               <label for="details">Details: </label>
                <input type="text" id="details" />
             </div>
             <button id="save-btn">Save product</button>
          </form>
+         <br />
          <table id="products-table" border="1">
             <thead>
                <tr>
@@ -71,5 +72,6 @@
             <tbody></tbody>
          </table>
       </div>
+      <script type="module" src="../js/admin.js"></script>
    </body>
 </html>
