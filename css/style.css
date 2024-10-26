@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #eaf6f6;
+    --second-color: #66bfbf;
+    --third-color: #fcfefe;
+    --fourth-color: #f76b8a;
+    --dark-color: #1e201e;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .flex-row {
+    display: flex;
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .justify-around {
+    justify-content: space-around;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .gap-5 {
+    gap: 5px;
+  }
+  
+  .gap-10 {
+    gap: 10px;
+  }
+  
+  .gap-20 {
+    gap: 20px;
+  }
+  
+  .bg-white {
+    background-color: var(--second-color);
+  }
+  
+  .nav-links a {
+    background-color: var(--dark-color);
+    color: var(--second-color);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .card {
+    background-color: var(--primary-color);
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(122, 211, 234);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .card img {
+    width: 100px;
+  }
+  
+  .card button {
+    width: 200px;
+    color: var(--primary-color);
+    background-color: var(--dark-color);
+    padding: 10px;
+    text-transform: uppercase;
+  }
